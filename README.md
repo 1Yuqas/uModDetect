@@ -8,7 +8,6 @@ Minecraft server plugin that detects client-side mods using hidden sign-based tr
 
 ## How It Works
 
-- Monitors player connections and chat messages
 - Uses hidden sign packets to detect specific mods
 - Configurable mod detection with custom actions
 - Sends custom messages when mods are detected
