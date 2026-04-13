@@ -1,5 +1,9 @@
 # uModDetect
 
+🌐 Language:
+- 🇺🇸 English (current)
+- 🇹🇷 [Türkçe](README_tr.md)
+
 Minecraft server plugin that detects client-side mods using hidden sign-based translation packets.
 
 ## How It Works
