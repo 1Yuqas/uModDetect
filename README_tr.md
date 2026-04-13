@@ -4,7 +4,6 @@ Minecraft sunucu eklentisi - istemci tarafındaki modları gizli tabela paketler
 
 ## Nasıl Çalışır
 
-- Oyuncu bağlantılarını ve sohbet mesajlarını izler
 - Belirli modları tespit etmek için gizli tabela paketleri kullanır
 - Yapılandırılabilir mod tespiti ve özel eylemler
 - Mod tespit edildiğinde özel mesajlar gönderir
