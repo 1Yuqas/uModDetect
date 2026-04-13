@@ -1,9 +1,5 @@
 # uModDetect
 
-🌐 Language:
-- 🇺🇸 English (current)
-- 🇹🇷 [Türkçe](README_tr.md)
-
 Minecraft sunucu eklentisi - istemci tarafındaki modları gizli tabela paketleri ile tespit eder.
 
 ## Nasıl Çalışır
