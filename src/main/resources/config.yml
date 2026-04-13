@@ -1,0 +1,34 @@
+# ========================================================
+# uModDetect Configuration
+# ========================================================
+
+# ========================================================
+# HOW IT WORKS / NASIL ÇALIŞIR:
+# [TR] Eklenti, oyuncuya altında 'key' kısmındaki kodu içeren gizli bir tabela açar.
+#      Eğer oyuncuda o mod yüklüyse, Minecraft bu kodu otomatik olarak modun ismine çevirir.
+#      Tabela kapandığında eklenti bu değişikliği okur ve modu tespit eder.
+#
+# [EN] The plugin opens a hidden Sign GUI containing the 'key' code for the player.
+#      If the player has the mod installed, Minecraft automatically translates this code.
+#      When the sign closes, the plugin reads the change and detects the mod.
+# ========================================================
+
+mods:
+  meteor:
+    key: "key.meteor-client.open-gui"
+    contains:
+      - "Open GUI"
+    command: "kick %player% (Meteor-Client)"
+
+  sodium:
+    key: "sodium.options.default"
+    contains:
+      - "Default"
+    message: "&f%player% is using &x&2&A&E&5&2&7Sodium &fMod."
+
+  freecam:
+    key: "key.freecam.toggle"
+    contains:
+      - "Toggle Freecam"
+      - "Freecam Aç/Kapa"
+    command: "kick %player% (FreeCam)"
